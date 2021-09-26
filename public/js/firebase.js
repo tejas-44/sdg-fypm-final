@@ -10,7 +10,7 @@ function login() {
         .then((userCredential) => {
             // Signed in
             var user = userCredential.user;
-            window.location = "https://firebase.google.com/docs/auth/web/start#web-version-8_1";
+            window.location = "html/home.html";
 
             // ...
         })
@@ -18,4 +18,31 @@ function login() {
             var errorCode = error.code;
             var errorMessage = error.message;
         });
+}
+
+function signup() {
+    console.log("entered Signup");
+
+    var userEmail = document.getElementById("usernameInputSignup").value;
+    var userPass = document.getElementById("passwordInputSignup").value;
+
+    console.log(userEmail);
+    console.log(userPass);
+
+    firebase.auth().createUserWithEmailAndPassword(userEmail, userPass)
+        .then((userCredential) => {
+            // Signed in 
+            window.location = "index.html";
+            // ...
+        })
+        .catch((error) => {
+            var errorCode = error.code;
+            var errorMessage = error.message;
+            console.log(errorMessage);
+            console.log(errorCode);
+
+            // ..
+        });
+
+
 }
