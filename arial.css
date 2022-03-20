@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+
+p.b {
+  font-family: Arial, Helvetica, sans-serif;
+}
+</style>
+</head>
+<body>
+<h1>The font-family Property</h1>
+
+<p class="b">This is a paragraph, shown in the Arial font.</p>
+
+</body>
+</html>
