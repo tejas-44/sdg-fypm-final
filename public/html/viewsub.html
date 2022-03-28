@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <link rel="stylesheet" href="../css/viewsub.css">
     <meta charset="UTF-8">
@@ -7,23 +8,49 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@300;600;800&display=swap" rel="stylesheet">  
+    <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@300;600;800&display=swap" rel="stylesheet">
     <title>Document</title>
 </head>
+
 <body>
-    
     <div class="card">
         <img src="../images/logo.png" alt="DYP logo" height="80">
         <h1>Project Submitted 👏</h1>
         </br>
         <h2>Project Guide: </h2>
-        <h3>Ms. Puja Padiya </h3>
+        <h3 id="viewsubmentorname">
+            <!-- Ms. Puja Padiya  -->
+        </h3>
         <h2>Project Title: </h2>
-        <h3>Interview Preparation Website</h3>
+        <h3 id="viewprojname">
+            <!-- Interview Preparation Website -->
+        </h3>
         <h2>Abstract: </h2>
-        <h3>A good idea for a graduate-level project would be exploring the applicability of project management while building a website. This would put students in touch with a team of backend developers and web designers where the job of a project manager would be to facilitate collaboration and functionality for both teams. Students looking to pursue a career in the IT industry would also gain practical knowledge in backend development.</h3>
+        <h3 id="viewabstract">
+            <!-- A good idea for a graduate-level project would be exploring the applicability of project
+            management while building a website. This would put students in touch with a team of backend developers and
+            web designers where the job of a project manager would be to facilitate collaboration and functionality for
+            both teams. Students looking to pursue a career in the IT industry would also gain practical knowledge in
+            backend development. -->
+        </h3>
         </br></br></br></br>
-
     </div>
 </body>
+<script src="https://www.gstatic.com/firebasejs/8.7.1/firebase.js"></script>
+<script src="https://www.gstatic.com/firebasejs/8.7.1/firebase-firestore.js"></script>
+<script>
+    // Initialize Firebase
+    var config = {
+        apiKey: "AIzaSyCquKcd1C8R383bMV5fKBYwCR5E1y6zxFI",
+        authDomain: "sdg-fypm.firebaseapp.com",
+        projectId: "sdg-fypm",
+        storageBucket: "sdg-fypm.appspot.com",
+        messagingSenderId: "795398231842",
+        appId: "1:795398231842:web:17f5fb7627a1646fc8377b",
+        measurementId: "G-RXH0SLFQXD"
+    };
+    firebase.initializeApp(config);
+</script>
+<script src="../js/firebase.js"></script>
+
 </html>

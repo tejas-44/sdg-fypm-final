@@ -16,20 +16,39 @@
     </header>
     <div class="container1">
         <h1>Submission Module</h1>
-        <h3><p>Project Name :<input type="text" id="name" name="name" required></p></h3>
-    
-        
-        <h3>Guide Name  :<input type="text" id="name" name="name" required></h3>
-        <h3>Project Abstract:</h3>
-        <textarea name="message" rows="12" cols="30"></textarea>
-        <br>
-        <h3>File Submission :<p4><button class="bt2">Upload</button></p4></h3> 
-       
-        <p3><button class="bt3" onclick='window.location.href="viewsub.html"'>Submit</button></p3>
-</div>
-    
+        <h3>
+            <p>Project Name :<input type="text" id="subprojname" name="name" required></p>
+        </h3>
 
-    
+
+        <h3>Guide Name :<input type="text" id="subguidename" name="name" required></h3>
+        <h3>Project Abstract:</h3>
+        <textarea name="message" rows="12" cols="30" id="subabstract"></textarea>
+        <br>
+        <h3>File Submission :<p4><button class="bt2">Upload</button></p4>
+        </h3>
+
+        <p3><button class="bt3" onclick='submit()' id="btnsubmit">Submit</button></p3>
+    </div>
+
+
+
 </body>
+<script src="https://www.gstatic.com/firebasejs/8.7.1/firebase.js"></script>
+<script src="https://www.gstatic.com/firebasejs/8.7.1/firebase-firestore.js"></script>
+<script>
+    // Initialize Firebase
+    var config = {
+        apiKey: "AIzaSyCquKcd1C8R383bMV5fKBYwCR5E1y6zxFI",
+        authDomain: "sdg-fypm.firebaseapp.com",
+        projectId: "sdg-fypm",
+        storageBucket: "sdg-fypm.appspot.com",
+        messagingSenderId: "795398231842",
+        appId: "1:795398231842:web:17f5fb7627a1646fc8377b",
+        measurementId: "G-RXH0SLFQXD"
+    };
+    firebase.initializeApp(config);
+</script>
+<script src="../js/firebase.js"></script>
 
 </html>
