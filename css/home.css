@@ -183,10 +183,6 @@ header {
 body {
   background-color: #F5F7FA;
 }
-
-.btn:hover{
-  box-shadow: 0px 4px 20px #8B0015;
-}
 #app {
   margin-left: 100px;
 }
