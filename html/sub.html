@@ -16,17 +16,25 @@
     </header>
     <div class="container1">
         <h1>Submission Module</h1>
-        <h3>
-            <p>Project Name :<input type="text" id="subprojname" name="name" required></p>
-        </h3>
+        <div>
+            <label for="subprojname">Project Name :</label>
+            <input type="text" id="subprojname" name="name" required>
+        </div>
 
+        <div>
+            <label for="subguidename">Guide Name :</label>
+            <input type="text" id="subguidename" name="name" required>
+        </div>
 
-        <h3>Guide Name :<input type="text" id="subguidename" name="name" required></h3>
-        <h3>Project Abstract:</h3>
-        <textarea name="message" rows="12" cols="30" id="subabstract"></textarea>
-        <br>
-        <h3>File Submission :<p4><button class="bt2">Upload</button></p4>
-        </h3>
+        <div class="textarea">
+            <label for="subabstract">Project Abstract :</label>
+            <textarea name="message" rows="12" cols="30" id="subabstract"></textarea>
+        </div>
+
+        <div>
+            <label>File Submission :</label>
+            <p4><button class="bt2">Upload</button></p4>
+        </div>
 
         <p3><button class="bt3" onclick='submit()' id="btnsubmit">Submit</button></p3>
     </div>
