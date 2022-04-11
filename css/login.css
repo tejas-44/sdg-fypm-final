@@ -66,35 +66,35 @@
     .btn:hover
     {
         background-color: #941127;
+        box-shadow: 0px 4px 8px #8B0015;
     }
     .btn 
     {
         background-color:rgb(141, 49, 49) ;
         color: rgb(255, 255, 255);
         width:130px;
-        height:30px;
         margin-top: 10px;
-        padding-top: 5px;
-        padding-bottom: 10px;
-        padding-right: 8px;
-        padding-left: 8px;
-        border-radius: 5px;
+        padding : 10px;
+        border-radius: 7px;
+        font-weight: bold;
+        border: none;
+        font-size: initial;
     }
     .btn2:hover{
         background-color: #941127;
+        box-shadow: 0px 4px 8px #8B0015;
     }
     .btn2
     {
         background-color: rgb(141, 49, 49);
         color: rgb(255, 255, 255);
         width:180px;
-        height:30px;
-        margin-top: 20px;
-        padding-top: 5px;
-        padding-bottom: 10px;
-        padding-right: 8px;
-        padding-left: 8px;
-        border-radius: 5px;
+        margin-top: 10px;
+        padding: 10px;
+        border-radius: 7px;
+        font-weight: bold;
+        border: none;
+        font-size: initial;
     }
     .button{
        padding-left: 10px;
