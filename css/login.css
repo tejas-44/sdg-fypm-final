@@ -7,18 +7,22 @@
         margin-left: 77px;
         margin-bottom: 35px;
         margin-right: 88px;
+        font-family: Arial, Helvetica, sans-serif;
+
     } 
     body{
         background-image:linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)) ,url("dd.jpg") ;
         background-repeat: no-repeat;
         background-size: cover;
         background-attachment: fixed;
+        font-family: Arial, Helvetica, sans-serif;
         
     }   
    .container p 
    {
                margin-bottom: 22px;
                font-size: large;
+               font-family: Arial, Helvetica, sans-serif;
                
     }
     .container p input 
@@ -27,6 +31,7 @@
         padding-left: 10px;
         padding-top: 3px;
         padding-bottom: 3px;
+        font-family: Arial, Helvetica, sans-serif;
     }
     .container 
     {
@@ -44,6 +49,7 @@
         border-radius: 25px;
         margin-right: 567px;
         box-shadow: 0 0 10px 2px #00000066;
+        font-family: Arial, Helvetica, sans-serif;
     }
     
     .logo img{
@@ -66,28 +72,37 @@
     .btn:hover
     {
         background-color: #941127;
+        box-shadow: 0px 4px 8px #8B0015;
     }
     .btn 
     {
         background-color:rgb(141, 49, 49) ;
         color: rgb(255, 255, 255);
         width:130px;
-        height:30px;
         margin-top: 10px;
+
         padding-top: 5px;
         padding-bottom: 10px;
         padding-right: 8px;
         padding-left: 8px;
         border-radius: 5px;
+        font-family: Arial, Helvetica, sans-serif;
+        padding : 10px;
+        border-radius: 7px;
+        font-weight: bold;
+        border: none;
+        font-size: initial;
     }
     .btn2:hover{
         background-color: #941127;
+        box-shadow: 0px 4px 8px #8B0015;
     }
     .btn2
     {
         background-color: rgb(141, 49, 49);
         color: rgb(255, 255, 255);
         width:180px;
+
         height:30px;
         margin-top: 20px;
         padding-top: 5px;
@@ -95,6 +110,14 @@
         padding-right: 8px;
         padding-left: 8px;
         border-radius: 5px;
+        font-family: Arial, Helvetica, sans-serif;
+
+        margin-top: 10px;
+        padding: 10px;
+        border-radius: 7px;
+        font-weight: bold;
+        border: none;
+        font-size: initial;
     }
     .button{
        padding-left: 10px;
