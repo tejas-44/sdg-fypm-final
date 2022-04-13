@@ -16,23 +16,26 @@
     </header>
     <div class="container1">
         <h1>Submission Module</h1>
-        <h3>
-            <p>Project Name :<input type="text" id="subprojname" name="name" required></p>
-        </h3>
-
-
-        <h3>Guide Name :<input type="text" id="subguidename" name="name" required></h3>
-        <h3>Project Abstract:</h3>
-        <textarea name="message" rows="12" cols="30" id="subabstract"></textarea>
+        <div class="form-label">
+            <label>Project Name :</label>
+            <input type="text" id="subprojname" name="name" required>
+        </div>
+        <div class="form-label">
+            <label>Guide Name :</label>
+            <input type="text" id="subguidename" name="name" required></div>
+        <div class="form-label">
+            <label>Project Abstract :</label>
+            <textarea name="message" rows="12" cols="30" id="subabstract"></textarea>
+        </div>
         <br>
-        <h3>File Submission :<p4><button class="bt2">Upload</button></p4>
-        </h3>
-
-        <p3><button class="bt3" onclick='submit()' id="btnsubmit">Submit</button></p3>
+        <div class="form-label">
+            <label>File Submission :</label>
+            <p><button class="bt2">Upload</button></p>
+        </div>
+        <div class="submit-div">
+            <button class="bt3" onclick='submit()' id="btnsubmit">Submit</button>
+        </div>
     </div>
-
-
-
 </body>
 <script src="https://www.gstatic.com/firebasejs/8.7.1/firebase.js"></script>
 <script src="https://www.gstatic.com/firebasejs/8.7.1/firebase-firestore.js"></script>
